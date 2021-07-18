@@ -1,0 +1,149 @@
+
+/* JUmbotron */
+.jumbotron{
+    background-image: url(jumbotron.png);
+}
+
+.tombol{
+    border-radius: 30px;
+    color: white;
+}
+
+.featured img{
+    height: 250px;
+}
+ 
+.featured h1{
+    font-size:40px;
+
+}
+
+.featured p{
+    font-size: 19px;
+}
+
+.featured h3{
+    font-size: 20px;
+}
+
+.info{
+    text-align: center;
+}
+
+/* section 2 */
+.comment{
+    background-image: url(bg.png);
+    height: 900px;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.kartu{
+    border-top: blue solid 10px;
+}
+
+.kartu img{
+    margin-left: 100px;
+}
+
+.comment2{
+    background-image: url(bg.png);
+    height: 900px;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+/* Footer */
+.footer{
+    background-image: url(bgfooter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.footer ul li{
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.footer2{
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+/* Desktop Version */
+@media(min-width:992px){
+    .navbar{
+        height: 130px;
+    }
+
+    .nav-link{
+        color: white !important;
+    }
+
+    .jumbotron{
+    background-image: url(jumbotron.png);
+    margin-top: -130px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .featured img{
+        height: 500px;
+    }
+
+    .info{
+        text-align: left;
+    }
+
+    /* section 2 */
+    .comment{
+    background-image: url(bg.png);
+    height: 600px;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    }
+
+    .kartu{
+        border-top: blue solid 10px;
+    }
+    .kartu img{
+        margin-left: 250px;
+    }
+
+    .comment2{
+        background-image: url(bg.png);
+        height: 700px;
+        margin-top: 60px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+    }
+
+    .footer{
+        background-image: url(bgfooter.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        padding-top: 250px;
+        color: white;
+        text-align: left;
+    }
+}
